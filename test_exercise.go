@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learngo/exercise/chapter10"
+	"learngo/exercise/chapter7"
 )
 
 //noinspection GoUnusedFunction
@@ -23,10 +23,13 @@ func testExercise() {
 	//fmt.Println("工厂函数测试")
 	//chapter6.FactoryTest()
 
+	fmt.Println("联系测试chapter7")
+	fmt.Println("slice插入测试")
+	chapter7.TestInsertSlice()
 	//fmt.Println("使用数组求斐波那契数列")
 	//chapter7.FibonacciArray()
 
-	fmt.Println("练习测试chapter10")
+	//fmt.Println("练习测试chapter10")
 	//chapter10.VcardTest()
-	chapter10.PersonTest()
+	//chapter10.PersonTest()
 }
