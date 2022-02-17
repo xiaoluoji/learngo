@@ -9,5 +9,6 @@ import (
 func testMap() {
 	fmt.Println("测试map的基本使用")
 	//maptest.TestMapBasic()
-	maptest.MapFuncTest()
+	//maptest.MapFuncTest()
+	maptest.MapsForange2()
 }
